@@ -13,4 +13,4 @@ service sshd restart
 echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
 echo never > /sys/kernel/mm/redhat_transparent_hugepage/defrag
 
-yum install -y epel=release yum-utils createrepo ntp pdsh pip
+yum install -y epel-release yum-utils createrepo ntp pdsh pip
